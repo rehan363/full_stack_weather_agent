@@ -1,0 +1,200 @@
+2025-10-27 01:10:22,139 [INFO]: Received query: hellooo
+2025-10-27 01:10:24,922 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 01:10:24,973 [INFO]: Agent response: Hello! How can I help you today? Need any weather information?
+
+2025-10-27 01:12:47,018 [INFO]: Received query: hello how are you
+2025-10-27 01:12:48,521 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 01:12:48,537 [INFO]: Agent response: I am doing well, thank you for asking! How can I help you today? Would you like to know the weather in a specific city?
+
+2025-10-27 01:12:48,560 [INFO]: Logged query to db
+2025-10-27 14:29:05,310 [INFO]: Received query: hi
+2025-10-27 14:29:08,205 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 14:29:08,285 [INFO]: Agent response: Hello! How can I help you with the weather today?
+
+2025-10-27 14:29:08,319 [INFO]: Logged query to db
+2025-10-27 14:30:18,879 [INFO]: Received query: hi i want the weather in rawalpindi
+2025-10-27 14:30:20,295 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 14:30:20,309 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 14:30:20,310 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 14:30:22,452 [INFO]: Weather data fetched successfully: {'city': 'Rawalpindi', 'country': 'Pakistan', 'temperature_c': 28.4, 'description': 'Sunny', 'humidity': 26, 'wind_kph': 9.0}
+2025-10-27 14:30:24,187 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 14:30:24,228 [INFO]: Agent response: The weather in Rawalpindi, Pakistan is currently sunny with a temperature of 28.4 degrees Celsius. The humidity is at 26% and the wind is blowing at 9.0 kilometers per hour.
+
+2025-10-27 14:30:24,252 [INFO]: Logged query to db
+2025-10-27 16:47:15,024 [INFO]: Received query: hi
+2025-10-27 16:47:17,591 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:47:17,693 [INFO]: Agent response: Hello! How can I help you with the weather today?
+
+2025-10-27 16:47:17,770 [INFO]: Logged query to db
+2025-10-27 16:47:41,060 [INFO]: Received query: what is the weather in rawalpindi now
+2025-10-27 16:47:42,141 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:47:42,171 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 16:47:42,171 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 16:47:43,034 [INFO]: Weather data fetched successfully: {'city': 'Rawalpindi', 'country': 'Pakistan', 'temperature_c': 27.9, 'description': 'Sunny', 'humidity': 27, 'wind_kph': 9.0}
+2025-10-27 16:47:43,785 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:47:43,793 [INFO]: Agent response: The weather in Rawalpindi, Pakistan is currently sunny with a temperature of 27.9 degrees Celsius. The humidity is at 27% and the wind is blowing at 9.0 kilometers per hour.
+
+2025-10-27 16:47:43,803 [INFO]: Logged query to db
+2025-10-27 16:50:03,115 [INFO]: Received query: hehehehehe
+2025-10-27 16:50:04,682 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:50:04,698 [INFO]: Agent response: I'm sorry, I'm not sure how to respond to that. Can I help you with anything else?
+
+2025-10-27 16:50:04,737 [INFO]: Logged query to db
+2025-10-27 16:50:22,643 [INFO]: Received query: i am really excited i love you
+2025-10-27 16:50:23,904 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:50:23,931 [INFO]: Agent response: I'm glad to hear that you're feeling excited! I'm here to help with any weather-related questions you might have.
+
+2025-10-27 16:50:23,960 [INFO]: Logged query to db
+2025-10-27 16:50:55,679 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:50:55,695 [INFO]: Agent response: While I appreciate your sentiment, I'm here to help with any weather-related questions you might have!
+
+2025-10-27 16:50:55,718 [INFO]: Logged query to db
+2025-10-27 16:54:03,119 [INFO]: Received query: what is islamabad
+2025-10-27 16:54:04,601 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 16:54:04,605 [INFO]: Agent response: I'm sorry, I'm unable to provide information about that topic. I can only provide weather information. Would you like to know the weather in Islamabad?
+
+2025-10-27 16:54:04,617 [INFO]: Logged query to db
+2025-10-27 17:07:49,721 [INFO]: Received query: what is the weather in rawalpindi now
+2025-10-27 17:07:51,395 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:07:51,449 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 17:07:51,451 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 17:07:52,330 [INFO]: Weather data fetched successfully: {'city': 'Rawalpindi', 'country': 'Pakistan', 'temperature_c': 27.9, 'description': 'Sunny', 'humidity': 27, 'wind_kph': 9.0}
+2025-10-27 17:07:53,178 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 17:07:53,182 [INFO]: Agent response: The weather in Rawalpindi, Pakistan is currently sunny with a temperature of 27.9 degrees Celsius. The humidity is at 27% and the wind is blowing at 9.0 kilometers per hour.
+
+2025-10-27 17:07:53,191 [INFO]: Logged query to db
+2025-10-27 18:05:13,259 [INFO]: Received query: hi
+2025-10-27 18:05:15,090 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:05:15,138 [INFO]: Agent response: Hi there! How can I help you today?
+
+2025-10-27 18:05:15,245 [INFO]: Logged query to db
+2025-10-27 18:08:31,842 [INFO]: Received query: what is the weather in rawalpindi
+2025-10-27 18:08:33,623 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:08:33,895 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 18:08:34,004 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 18:08:35,131 [INFO]: Weather data fetched successfully: {'city': 'Rawalpindi', 'country': 'Pakistan', 'temperature_c': 25.3, 'description': 'Sunny', 'humidity': 33, 'wind_kph': 8.3}
+2025-10-27 18:08:36,310 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:08:36,352 [INFO]: Agent response: The weather in Rawalpindi, Pakistan is sunny with a temperature of 25.3 degrees Celsius, 33% humidity, and a wind speed of 8.3 kph.
+
+2025-10-27 18:08:36,405 [INFO]: Logged query to db
+2025-10-27 18:20:45,273 [INFO]: Received query: hello
+2025-10-27 18:20:47,641 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:20:47,724 [INFO]: Agent response: Hello! How can I help you with the weather today?
+
+2025-10-27 18:20:48,033 [INFO]: Logged query to db
+2025-10-27 18:21:08,309 [INFO]: Received query: what is the weather in rawalpindi
+2025-10-27 18:21:09,365 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:21:09,400 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 18:21:09,404 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 18:21:10,564 [INFO]: Weather data fetched successfully: {'city': 'Rawalpindi', 'country': 'Pakistan', 'temperature_c': 22.7, 'description': 'Clear', 'humidity': 35, 'wind_kph': 7.2}
+2025-10-27 18:21:11,482 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:21:11,503 [INFO]: Agent response: The weather in Rawalpindi, Pakistan is currently clear with a temperature of 22.7 degrees Celsius, 35% humidity, and a wind speed of 7.2 kph.
+
+2025-10-27 18:21:11,532 [INFO]: Logged query to db
+2025-10-27 18:30:23,312 [INFO]: Received query: I just want to know weather in los angelus
+2025-10-27 18:30:24,718 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:30:24,764 [INFO]: Fetching weather for city: los angelus
+2025-10-27 18:30:24,801 [INFO]: Fetching weather for city: los angelus
+2025-10-27 18:30:25,518 [INFO]: Weather data fetched successfully: {'city': 'Angelus', 'country': 'United States of America', 'temperature_c': 10.6, 'description': 'Patchy rain nearby', 'humidity': 99, 'wind_kph': 21.2}
+2025-10-27 18:30:26,343 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:30:26,354 [INFO]: Agent response: OK. The weather in Angelus, United States of America is 10.6 degrees Celsius with patchy rain nearby. The humidity is 99% and the wind speed is 21.2 kph.
+
+2025-10-27 18:30:26,403 [INFO]: Logged query to db
+2025-10-27 18:30:39,442 [INFO]: Received query: ok what is weather
+2025-10-27 18:30:41,137 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:30:41,174 [INFO]: Agent response: I need to know which city you're interested in. Could you please tell me the city for which you want the weather information?
+
+2025-10-27 18:30:41,194 [INFO]: Logged query to db
+2025-10-27 18:31:50,539 [INFO]: Received query: i am intrusted in london weather
+2025-10-27 18:31:57,047 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:31:57,069 [INFO]: Fetching weather for city: london
+2025-10-27 18:31:57,070 [INFO]: Fetching weather for city: london
+2025-10-27 18:31:57,632 [INFO]: Weather data fetched successfully: {'city': 'London', 'country': 'United Kingdom', 'temperature_c': 13.0, 'description': 'Partly cloudy', 'humidity': 58, 'wind_kph': 24.5}
+2025-10-27 18:32:03,041 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:32:03,052 [INFO]: Agent response: The weather in London, United Kingdom is partly cloudy with a temperature of 13.0 degrees Celsius, humidity of 58%, and wind speed of 24.5 kph.
+
+2025-10-27 18:32:03,073 [INFO]: Logged query to db
+2025-10-27 18:34:55,661 [INFO]: Received query: hellopo
+2025-10-27 18:34:56,728 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:34:56,741 [INFO]: Agent response: Hello! How can I help you today?
+
+2025-10-27 18:34:56,772 [INFO]: Logged query to db
+2025-10-27 18:35:02,145 [INFO]: Received query: what is weather
+2025-10-27 18:35:03,261 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:35:03,275 [INFO]: Agent response: I need to know which city you're interested in to provide you with weather information. Could you please tell me the city?
+
+2025-10-27 18:35:03,306 [INFO]: Logged query to db
+2025-10-27 18:37:56,974 [INFO]: Received query: hi
+2025-10-27 18:37:58,346 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:37:58,413 [INFO]: Agent response: Hello! How can I help you with the weather today?
+
+2025-10-27 18:37:58,546 [INFO]: Logged query to db
+2025-10-27 18:38:17,855 [INFO]: Received query: what is the weather in rawalpindi now
+2025-10-27 18:38:18,916 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:38:18,993 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 18:38:19,078 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 18:38:19,696 [INFO]: Weather data fetched successfully: {'city': 'Rawalpindi', 'country': 'Pakistan', 'temperature_c': 22.7, 'description': 'Clear', 'humidity': 35, 'wind_kph': 7.2}
+2025-10-27 18:38:20,498 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:38:20,544 [INFO]: Agent response: The weather in Rawalpindi, Pakistan is currently clear with a temperature of 22.7 degrees Celsius, 35% humidity, and a wind speed of 7.2 kph.
+
+2025-10-27 18:38:20,594 [INFO]: Logged query to db
+2025-10-27 18:38:52,143 [INFO]: Received query: ok give me weather in londin
+2025-10-27 18:38:56,854 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:38:56,880 [INFO]: Fetching weather for city: london
+2025-10-27 18:38:56,889 [INFO]: Fetching weather for city: london
+2025-10-27 18:38:57,488 [INFO]: Weather data fetched successfully: {'city': 'London', 'country': 'United Kingdom', 'temperature_c': 13.3, 'description': 'Partly cloudy', 'humidity': 58, 'wind_kph': 24.5}
+2025-10-27 18:39:00,968 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:39:01,034 [INFO]: Agent response: The weather in London, United Kingdom is partly cloudy with a temperature of 13.3 degrees Celsius, humidity of 58%, and wind speed of 24.5 kph.
+
+2025-10-27 18:39:01,112 [INFO]: Logged query to db
+2025-10-27 18:40:04,765 [INFO]: Received query: hi
+2025-10-27 18:40:06,431 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:40:06,496 [INFO]: Agent response: Hello! How can I help you with the weather today?
+
+2025-10-27 18:40:06,548 [INFO]: Logged query to db
+2025-10-27 18:40:15,352 [INFO]: Received query: what is the weather in london
+2025-10-27 18:40:16,344 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:40:16,372 [INFO]: Fetching weather for city: london
+2025-10-27 18:40:16,377 [INFO]: Fetching weather for city: london
+2025-10-27 18:40:16,911 [INFO]: Weather data fetched successfully: {'city': 'London', 'country': 'United Kingdom', 'temperature_c': 13.3, 'description': 'Partly cloudy', 'humidity': 58, 'wind_kph': 24.5}
+2025-10-27 18:40:17,863 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:40:17,893 [INFO]: Agent response: The weather in London, United Kingdom is partly cloudy with a temperature of 13.3 degrees Celsius, humidity at 58%, and wind speed of 24.5 kph.
+
+2025-10-27 18:40:17,942 [INFO]: Logged query to db
+2025-10-27 18:40:37,241 [INFO]: Received query: i want the weather of rawalpindi
+2025-10-27 18:40:38,359 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:40:38,423 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 18:40:38,427 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 18:40:38,816 [INFO]: Weather data fetched successfully: {'city': 'Rawalpindi', 'country': 'Pakistan', 'temperature_c': 22.7, 'description': 'Clear', 'humidity': 35, 'wind_kph': 7.2}
+2025-10-27 18:40:39,715 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 18:40:39,760 [INFO]: Agent response: The weather in Rawalpindi, Pakistan is clear with a temperature of 22.7 degrees Celsius. The humidity is 35% and the wind speed is 7.2 kph.
+
+2025-10-27 18:40:39,804 [INFO]: Logged query to db
+2025-10-27 19:24:45,064 [INFO]: Received query: hi
+2025-10-27 19:24:47,154 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:24:47,172 [INFO]: Agent response: Hello! How can I help you with the weather today?
+
+2025-10-27 19:24:47,212 [INFO]: Logged query to db
+2025-10-27 19:25:03,353 [INFO]: Received query: what is the weather in rawalpindi now
+2025-10-27 19:25:04,724 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:25:04,737 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 19:25:04,739 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 19:25:05,440 [INFO]: Weather data fetched successfully: {'city': 'Rawalpindi', 'country': 'Pakistan', 'temperature_c': 22.0, 'description': 'Clear', 'humidity': 36, 'wind_kph': 6.1}
+2025-10-27 19:25:06,190 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:25:06,198 [INFO]: Agent response: The weather in Rawalpindi, Pakistan is currently clear with a temperature of 22.0 degrees Celsius. The humidity is at 36% and the wind speed is 6.1 kph.
+
+2025-10-27 19:25:06,220 [INFO]: Logged query to db
+2025-10-27 19:31:00,698 [INFO]: Received query: what is the weather in rawalpindi now
+2025-10-27 19:31:02,441 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:31:02,624 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 19:31:03,108 [INFO]: Fetching weather for city: rawalpindi
+2025-10-27 19:31:04,327 [INFO]: Weather data fetched successfully: {'city': 'Rawalpindi', 'country': 'Pakistan', 'temperature_c': 22.0, 'description': 'Clear', 'humidity': 36, 'wind_kph': 6.1}
+2025-10-27 19:31:05,440 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 19:31:05,451 [INFO]: Agent response: The weather in Rawalpindi, Pakistan is currently clear with a temperature of 22.0 degrees Celsius. The humidity is at 36% and the wind is blowing at 6.1 kilometers per hour.
+
+2025-10-27 19:31:05,481 [INFO]: Logged query to db
+2025-10-27 20:31:13,916 [INFO]: Received query: hi
+2025-10-27 20:31:15,128 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 20:31:15,147 [INFO]: Agent response: Hi there! How can I help you today?
+
+2025-10-27 20:31:15,206 [INFO]: Logged query to db

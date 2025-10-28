@@ -1,0 +1,8 @@
+2025-10-26 20:50:57,238 [INFO]: Received query: what is the weather of lahor now
+2025-10-26 20:50:59,895 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 20:50:59,987 [INFO]: Fetching weather for city: lahor
+2025-10-26 20:50:59,987 [INFO]: Fetching weather for city: lahor
+2025-10-26 20:51:00,608 [INFO]: Weather data fetched successfully: {'city': 'Lahore', 'country': 'Pakistan', 'temperature_c': 26.2, 'description': 'Overcast', 'humidity': 54, 'wind_kph': 8.6}
+2025-10-26 20:51:02,191 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 20:51:02,238 [INFO]: Agent response: The weather in Lahore, Pakistan is currently overcast with a temperature of 26.2 degrees Celsius. The humidity is at 54%, and the wind is blowing at 8.6 kilometers per hour.
+

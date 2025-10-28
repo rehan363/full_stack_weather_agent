@@ -1,0 +1,8 @@
+2025-10-27 13:51:15,568 [INFO]: Received query: HI
+2025-10-27 13:51:19,422 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 13:51:19,490 [INFO]: Agent response: Hello! How can I help you today?
+
+2025-10-27 14:01:16,839 [INFO]: Received query: hi
+2025-10-27 14:01:18,667 [INFO]: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 14:01:18,698 [INFO]: Agent response: Hello! How can I help you with the weather today?
+

@@ -1,2 +1,2 @@
 def main() -> None:
-    print("Hello from app!")
+    print("Hello from app ehhhhehhhehe!")
