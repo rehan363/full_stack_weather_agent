@@ -115,7 +115,7 @@ export default function WeatherAgent() {
   }
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-sky-100 via-blue-50 to-sky-200 relative overflow-hidden">
+    <main className="min-h-screen bg-linear-to-br from-sky-100 via-blue-50 to-sky-200 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-10 left-10 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
         <div className="absolute top-40 right-10 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
@@ -148,7 +148,7 @@ export default function WeatherAgent() {
                 <Button
                   type="submit"
                   disabled={loading}
-                  className="bg-gradient-to-r from-sky-500 to-blue-500 hover:from-sky-600 hover:to-blue-600 text-white px-6 md:px-8"
+                  className="bg-linear-to-r from-sky-500 to-blue-500 hover:from-sky-600 hover:to-blue-600 text-white px-6 md:px-8"
                 >
                   {loading ? "Loading..." : "Ask"}
                 </Button>
@@ -176,12 +176,12 @@ export default function WeatherAgent() {
                       </h2>
                       <p className="text-slate-600">{weatherData.description || "Current conditions"}</p>
                     </div>
-                    <div className="flex-shrink-0">{getWeatherIcon(weatherData.condition)}</div>
+                    <div className="shrink-0">{getWeatherIcon(weatherData.condition)}</div>
                   </div>
 
                   {/* Temperature */}
                   {weatherData.temperature !== undefined && (
-                    <div className="mb-8 p-6 bg-gradient-to-r from-sky-100 to-blue-100 rounded-lg">
+                    <div className="mb-8 p-6 bg-linear-to-r from-sky-100 to-blue-100 rounded-lg">
                       <p className="text-slate-600 text-sm font-medium mb-2">Temperature</p>
                       <p className="text-5xl font-bold text-sky-600">{weatherData.temperature}°</p>
                     </div>
