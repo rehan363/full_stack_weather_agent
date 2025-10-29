@@ -1,4 +1,4 @@
-{
+    {
   "builds": [
     {
       "src": "frontend/my-app/package.json",
